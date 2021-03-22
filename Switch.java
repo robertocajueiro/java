@@ -38,14 +38,14 @@ public class Switch {
 			break;
 		case 11:
 			System.out.println("Novembro");
+			break;
 		case 12:
 			System.out.println("Dezembro");
-			
+			break;
 		default:
 			System.out.println("Mês não existe!");
-			
+			break;
 		}
-		
 
 	}
 
