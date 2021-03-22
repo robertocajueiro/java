@@ -12,8 +12,11 @@ public class Excecao {
 		try {
 			r = i/x;
 		}catch(Exception e) {
-			System.out.println("r = " + r);
+			System.out.println(e.getMessage());
+		}finally {
+			
 		}
+		System.out.println("r = " + r);
 
 	}
 
